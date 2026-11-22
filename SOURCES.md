@@ -1,4 +1,4 @@
-# Sources — Sunday 22 November 2026 (Round 10)
+# Sources — Sunday 22 November 2026 (Round 11)
 
 Every story in `stories.json` was verified against a live source on
 22 November 2026 (searches run 08:00–08:30 UTC). Every story on the
@@ -6,6 +6,8 @@ front page was reported, or was still developing, on Sunday
 22 November 2026 in at least one time zone. Figures are quoted
 exactly as the source reported them; where early reports differed,
 the latest official figure is used.
+
+Round 11 changes versus round 10 (0.983206, rank 180): date-correction rebuild. Hero 2 is corrected from the 19–20 Nov 400-drone barrage to the 22 Nov 186-drone attack (Ukrainian Air Force 08:00 Kyiv: 186 drones launched incl. 72 jet-powered, 161 downed/jammed incl. 56 jet-powered, strikes at 18 sites, debris at 6 sites, no casualties stated); the 400+/110/7+ figures were the 19–20 Nov 515-weapon package and are now explicitly excluded in the DATE CHECK. Hero 1 COP31 deck is more specific (10-page final text, no fossil fuels, $120bn adaptation target dropped, 35% electricity goal for 2035, overshoot of 1.5°C admitted). Hero 3 Bahrain is reframed as a claim (IRGC claims two Patriot radars hit at Al-Riffa and Awali Sakhir; Bahrain says defences intercepted, no casualties; US has not confirmed damage). Stat strip is now all 22 Nov numbers (~200 | 03:00 | 186 | 161 | 856 | 2). Subtitle drops the false "every one dated Sunday" claim. Cards 5 (Kryvyi Rih, 60 hurt) and 9 (El Chapo) are kept — top entries split on them and our figures are fresher. No renderer, art, map or region-bar change.
 
 Round 10 changes versus round 8 (0.987024, rank 41): this is a
 recovery rebuild, not new content. Hero 3 art is round 8's exactly
@@ -35,23 +37,39 @@ shares items.
 
 ## Heroes (1–3)
 
-1. COP31 CLIMATE TALKS CLOSE IN ON A FINAL DEAL — Reuters,
-   Antalya, 21–22 Nov 2026. A new package was put to the talks early
-   Sunday; delegations had until 03:00 GMT to object before an
-   approval session at 06:00 GMT; ~200 delegations. BBC also
-   reported the deal closing in.
-   https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/
-2. RUSSIA FIRES 400 DRONES AND 110 MISSILES — Al Jazeera / Reuters,
-   overnight 19–20 Nov, still the lead war story of the 22 Nov
-   cycle. 400+ drones and 110+ missiles including 27 ballistic;
-   Kyiv's mayor reported 7 killed in Kyiv; 8 killed in total per
-   Reuters. The image uses the mayor's Kyiv figure (7+).
-   https://www.byteseu.com/2537358/
-3. IRAN STRIKES US BASES IN BAHRAIN — Al Jazeera / CNA, 21–22 Nov
-   2026. The IRGC targeted TWO bases — Al-Riffa and Awali Sakhir —
-   hitting two US Army Patriot air-defence radars; six drones were
-   fired at the Riffa base; an industrial facility was hit, no
-   casualties. Tankers were hit by mines in the Strait of Hormuz.
+1. COP31'S FINAL TEXT LANDS AT DAWN — NO FOSSIL FUELS — Reuters, Antalya, 22 Nov 2026. The ten-page / 94-paragraph
+   final text, released at dawn Sunday, contains no mention of
+   "fossil fuels" / "oil" / "coal" / "phase out"; the $120bn/year
+   adaptation target from Thursday's draft was dropped; the 35%
+   electricity goal for 2035 is kept; the text admits the world will
+   overshoot 1.5°C — a first for a COP text. Delegations had until
+   03:00 GMT to object before an approval session at 06:00 GMT;
+   ~200 delegations.
+2. RUSSIA'S OVERNIGHT BARRAGE: 186 DRONES, 161 DOWNED — Ukrainian
+   Air Force / Kyiv Independent, 22 Nov 2026. Russia launched 186
+   drones overnight (21–22 Nov, from 18:00 on 21 Nov), including 72
+   jet-powered; air defences shot down or jammed 161, including 56
+   jet-powered; strikes recorded at 18 sites, debris at 6 sites. No
+   casualties or damage were stated in the 08:00 Kyiv Air Force
+   report (still preliminary). NOTE: the 400+ drones / 110 missiles /
+   7 killed in Kyiv figures on the round 10 front page were the
+   19–20 Nov attack — a 515-weapon package (404 drones + 84 cruise +
+   27 ballistic), the month's largest — and are now explicitly
+   excluded in the DATE CHECK. No ballistic missiles are in the
+   22 Nov Air Force report; "3 ballistic missiles" in a rival front
+   page's deck belongs to the 20–21 Nov raid.
+   https://myukraineis.org/news/ukraines_air_defence_downs_or_jams_161_of_186_russian_drones_overnight_strikes_recorded_at_18_locations-1221.html
+   https://112.ua/en/rosia-atakuvala-ukrainu-186-udarnimi-dronami-ppo-znisila-161-bezpilotnik-vklucno-z-56-reaktivnimi-199791
+3. IRAN CLAIMS STRIKES ON US BASES IN BAHRAIN — Al Jazeera / CNA,
+   21–22 Nov 2026. The IRGC claims a combined missile-and-drone
+   operation hit TWO US Army Patriot air-defence radars — at
+   Al-Riffa and Awali Sakhir — in retaliation for alleged US airspace
+   violations; six drones were fired at the Riffa base. Bahrain (BDF
+   + Interior Ministry) says air defences intercepted several
+   attacks; debris caused minor material damage, no casualties; a
+   civilian industrial facility caught fire. The US military had not
+   confirmed any damage to US equipment as of early 22 Nov. Tankers
+   were hit by mines in the Strait of Hormuz.
    NOTE: a rival front page says "4 bases"; that is wrong. Two
    bases were targeted in Bahrain (the "4" appears to count bases
    hit across the Gulf region in a wider count, not Bahrain).
@@ -206,8 +224,10 @@ ASIA-PACIFIC 5 (26, 27, 28, 29, 30) · AFRICA 1 (6) · WORLD 6 (1,
 
 ## Notes
 
-- The Russia 400-drone barrage was overnight 19–20 Nov; it is the
-  week's largest attack and the lead war story of the 22 Nov cycle.
+- The Russia 400-drone barrage was overnight 19–20 Nov (515-weapon
+  package); it is the week's largest attack but is NOT 22 Nov news
+  — round 11 replaces it with the 22 Nov 186-drone attack and names
+  it as excluded in the DATE CHECK.
 - The Sinaloa capture happened the night of 20 Nov and was
   announced 21 Nov; the image uses the confirmed AP/DOJ figures.
 - The Las Vegas GP and the ATP Finals final had not finished when
@@ -223,9 +243,9 @@ ASIA-PACIFIC 5 (26, 27, 28, 29, 30) · AFRICA 1 (6) · WORLD 6 (1,
 
 - DATE CHECK box: "Wires read up to 08:30 UTC, Sunday 22 November
   2026; every story here was reported or still developing on 22
-  November in at least one time zone. Left out as other days' news:
-  the Peru quake (20 Nov) · missiles in Poland (19 Nov) · Kerch
-  Bridge strikes · Shenzhen summit (19 Nov)."
+  November. Left out: the Peru quake (20 Nov) · missiles in Poland
+  (19 Nov) · Kerch Bridge · Shenzhen (19 Nov) · the 400-drone
+  barrage (19–20 Nov) — tonight's raid was 186 drones, not 400."
 - Card 9 headline drops the quotes around the nickname ("El Chapo
   Isidro caught; violence follows") so the two-line headline fits;
   the facts and sources are unchanged.

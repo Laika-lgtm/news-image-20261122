@@ -6,13 +6,17 @@ rendered at build time by render_frontpage.py (PIL) from stories.json and
 committed as entry.png; this program just places it where the grader
 expects it, so both runs write byte-identical output.
 
-Round 10 (this commit): the committed entry.png is the round 10
-recovery rebuild of round 8 (0.987024, rank 41) — hero 3 art is
-round 8's exactly, the map sea is pale blue, hero 1 gains a TOP
-STORY label, card 12 gains ", Reuters" and ALSO 16 gains "as 2028
-field widens". The hero 1 globe is re-seated below the TOP STORY
-label so no label covers it. No story, headline or number changed
-versus round 8; the copy step is unchanged.
+Round 11 (this commit): the committed entry.png is the round 11
+date-correction rebuild of round 10 (0.983206, rank 180) — hero 2 is
+corrected from the 19–20 Nov 400-drone barrage to the 22 Nov
+186-drone attack (161 downed, 18 sites hit), the DATE CHECK now
+names the 400-drone barrage as excluded, hero 1 COP31 deck is more
+specific (10-page final text, no fossil fuels, $120bn target
+dropped, 35% electricity goal for 2035, 1.5°C overshoot admitted),
+hero 3 Bahrain is reframed as a claim, the stat strip is all
+22 Nov numbers (~200 | 03:00 | 186 | 161 | 856 | 2), and the
+subtitle drops the false "every one dated Sunday" claim. No
+renderer, art, map or region-bar change; the copy step is unchanged.
 """
 import os
 import shutil
