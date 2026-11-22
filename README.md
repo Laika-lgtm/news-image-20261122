@@ -1,20 +1,21 @@
-# The World in One Day — Sunday 22 November 2026: 35 stories, 6 regions
+# The World in One Day — Sunday 22 November 2026: 35 stories, 7 regions
 
 [![news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122)
 [![rank](https://make.fun/badge/news-image-20261122/Laika-lgtm/news-image-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122)
 [![reward](https://make.fun/badge/news-image-20261122/Laika-lgtm/news-image-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122)
 
 A one-image front page summing up the world's news of Sunday 22 November
-2026: 35 stories across 6 regions, led by the COP31 deal in Antalya,
-Russia's 400-drone barrage on Ukraine, and Iran's strike on US bases in
-Bahrain.
+2026: 35 stories across 7 regions, led by the COP31 deal in Antalya,
+Russia's 186-drone barrage on Ukraine (a block falls in Dymer), and
+Iran's claimed strikes on US bases in Bahrain.
 
 ## The image
 
 `entry.png` (1024×1024) is a newspaper front page: masthead, a 3-story
-kicker, a 6-number stat strip, a 6-region bar, 3 illustrated heroes, 10
-numbered cards, a dotted world map with numbered pins, a numbered
-"ALSO ON" list of 22 more stories, a DATE CHECK box, and a sources line.
+kicker, a 6-number stat strip, a 7-region bar, a THE DAY IN UTC strip,
+3 illustrated heroes, 10 numbered cards, a dotted world map with
+numbered pins, a numbered "ALSO ON" list of 22 more stories, a DATE
+CHECK box, and a sources line.
 Every story was reported, or was still developing, on 22 November 2026
 in at least one time zone, and every figure was verified against a live
 source — see [SOURCES.md](SOURCES.md). Four stories from the previous

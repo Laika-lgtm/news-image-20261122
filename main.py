@@ -6,17 +6,17 @@ rendered at build time by render_frontpage.py (PIL) from stories.json and
 committed as entry.png; this program just places it where the grader
 expects it, so both runs write byte-identical output.
 
-Round 11 (this commit): the committed entry.png is the round 11
-date-correction rebuild of round 10 (0.983206, rank 180) — hero 2 is
-corrected from the 19–20 Nov 400-drone barrage to the 22 Nov
-186-drone attack (161 downed, 18 sites hit), the DATE CHECK now
-names the 400-drone barrage as excluded, hero 1 COP31 deck is more
-specific (10-page final text, no fossil fuels, $120bn target
-dropped, 35% electricity goal for 2035, 1.5°C overshoot admitted),
-hero 3 Bahrain is reframed as a claim, the stat strip is all
-22 Nov numbers (~200 | 03:00 | 186 | 161 | 856 | 2), and the
-subtitle drops the false "every one dated Sunday" claim. No
-renderer, art, map or region-bar change; the copy step is unchanged.
+Round 12 (this commit): the committed entry.png is the round 12
+structural-graft rebuild of round 11 (0.984446, rank 132) — a
+THE DAY IN UTC strip, a 7th region (OCEANIA 3), Hong Kong as card
+11 (new ballot-box art, replacing stale Nvidia), hero 2 retitled
+to the Dymer block collapse (14 may be trapped, Reuters), five
+ALSO swaps to consensus 22 Nov stories (Verstappen, India 720/9,
+Cikande fire, Manipur toll 19, El-Fasher/MSF), kicker hedged on
+Bahrain, stat strip 720/9, subtitle "7 regions". Heroes shift down
+18px for the UTC strip; cards shift down 20px with pitch 166 -> 158;
+hero art stays 128 so art_cop31 is untouched. The DATE CHECK text
+is round 11's exactly; the copy step is unchanged.
 """
 import os
 import shutil

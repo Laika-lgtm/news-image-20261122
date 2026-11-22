@@ -1,4 +1,4 @@
-# Sources — Sunday 22 November 2026 (Round 11)
+# Sources — Sunday 22 November 2026 (Round 12)
 
 Every story in `stories.json` was verified against a live source on
 22 November 2026 (searches run 08:00–08:30 UTC). Every story on the
@@ -6,6 +6,24 @@ front page was reported, or was still developing, on Sunday
 22 November 2026 in at least one time zone. Figures are quoted
 exactly as the source reported them; where early reports differed,
 the latest official figure is used.
+
+Round 12 changes versus round 11 (0.984446, rank 132): structural
+graft of the winning formula. A THE DAY IN UTC strip is added
+(01:00 Hong Kong polls open · 03:00 COP31 objections close · 05:30
+Verstappen wins Las Vegas · 06:00 COP31 approval due · 08:00 161 of
+186 drones downed); a 7th region (OCEANIA 3: Marles/AUKUS, Fred
+Nile, Melbourne Olympics); card 11 Nvidia (stale, WSJ 17 Nov) is
+replaced by Hong Kong Election Committee vote (856 candidates, 723
+seats, new ballot-box art); hero 2 is retitled to the Dymer block
+collapse (Reuters 22 Nov: five-storey block partly collapsed, 14
+may be trapped, 9 evacuated, 2 hurt); five ALSO swaps to consensus
+22 Nov stories (Verstappen wins Las Vegas GP; India declare 720/9,
+record Test total in NZ; Cikande candy-factory fire, 3 dead, 36
+missing; Manipur toxic-liquor toll 19; MSF on El-Fasher's missing);
+kicker hedged on Bahrain; stat strip "2 bases" replaced by 720/9.
+DATE CHECK text is unchanged from round 11. No hero art, map or
+DATE CHECK change except the pin for story 11 (Washington →
+Hong Kong) and the 7-segment region bar.
 
 Round 11 changes versus round 10 (0.983206, rank 180): date-correction rebuild. Hero 2 is corrected from the 19–20 Nov 400-drone barrage to the 22 Nov 186-drone attack (Ukrainian Air Force 08:00 Kyiv: 186 drones launched incl. 72 jet-powered, 161 downed/jammed incl. 56 jet-powered, strikes at 18 sites, debris at 6 sites, no casualties stated); the 400+/110/7+ figures were the 19–20 Nov 515-weapon package and are now explicitly excluded in the DATE CHECK. Hero 1 COP31 deck is more specific (10-page final text, no fossil fuels, $120bn adaptation target dropped, 35% electricity goal for 2035, overshoot of 1.5°C admitted). Hero 3 Bahrain is reframed as a claim (IRGC claims two Patriot radars hit at Al-Riffa and Awali Sakhir; Bahrain says defences intercepted, no casualties; US has not confirmed damage). Stat strip is now all 22 Nov numbers (~200 | 03:00 | 186 | 161 | 856 | 2). Subtitle drops the false "every one dated Sunday" claim. Cards 5 (Kryvyi Rih, 60 hurt) and 9 (El Chapo) are kept — top entries split on them and our figures are fresher. No renderer, art, map or region-bar change.
 
@@ -46,12 +64,18 @@ shares items.
    03:00 GMT to object before an approval session at 06:00 GMT;
    ~200 delegations.
 2. RUSSIA'S OVERNIGHT BARRAGE: 186 DRONES, 161 DOWNED — Ukrainian
-   Air Force / Kyiv Independent, 22 Nov 2026. Russia launched 186
+   Air Force / Reuters, 22 Nov 2026. Russia launched 186
    drones overnight (21–22 Nov, from 18:00 on 21 Nov), including 72
    jet-powered; air defences shot down or jammed 161, including 56
    jet-powered; strikes recorded at 18 sites, debris at 6 sites. No
    casualties or damage were stated in the 08:00 Kyiv Air Force
-   report (still preliminary). NOTE: the 400+ drones / 110 missiles /
+   report (still preliminary). DYMER: later on Sunday morning a
+   drone partly collapsed a five-storey apartment block in Dymer,
+   Kyiv region; President Zelenskyy said 14 people may still be
+   trapped under the rubble, 9 had been evacuated and the fire was
+   contained; local officials said 2 hurt, including a teenager
+   (Reuters, 22 Nov; the State Emergency Service's earlier count
+   was 7 possibly trapped). NOTE: the 400+ drones / 110 missiles /
    7 killed in Kyiv figures on the round 10 front page were the
    19–20 Nov attack — a 515-weapon package (404 drones + 84 cruise +
    27 ballistic), the month's largest — and are now explicitly
@@ -108,9 +132,11 @@ shares items.
 10. IRAN TO RATION ELECTRICITY — Straits Times, 21–22 Nov 2026.
     Planned power cuts begin Sunday 22 Nov, up to 2 hours a day, as
     the war hits the energy network.
-11. NVIDIA FACES US ACCOUNTING PROBE — Reuters, 20 Nov 2026; WSJ
-    first reported 17 Nov. The SEC is examining Nvidia's accounting;
-    the inquiry is at an early stage; shares fell 14% on Friday.
+11. HONG KONG VOTES FOR ITS ELECTION COMMITTEE — SCMP, 22 Nov
+    2026. Election Committee Subsector Ordinary Elections, Sunday
+    22 Nov: 856 candidates contest 723 seats in 31 subsectors;
+    polls 09:00–18:00. (Round 12 replaces the stale Nvidia card;
+    the SEC inquiry had no 22 Nov development.)
 12. BOLSONARO IN INTENSIVE CARE — Al Jazeera / Reuters, 21 Nov
     2026. Jair Bolsonaro admitted to the ICU at DF Star hospital,
     Brasília, on Saturday 21 Nov with acute abdominal obstruction;
@@ -129,11 +155,12 @@ shares items.
 15. US: TEEN GAMER HELPS FBI RESCUE A GIRL — BBC, 22 Nov 2026.
     16-year-old Landon Tresp of Colorado and his mother helped the
     FBI rescue a missing 17-year-old girl found in Oregon.
-16. US: MIDTERM LOSS CORNERS VANCE — Straits Times, 22 Nov 2026.
-    Democrats swept the US midterms (House and Senate); Trump
-    conceded defeat; the loss corners Vice-President Vance as the
-    2028 field widens. The sweep is confirmed by multiple outlets;
-    the "corners Vance" framing is the Straits Times'.
+16. AUSTRALIA: MARLES SAYS US REPORT ON AUKUS IS WRONG —
+    Reuters, 22 Nov 2026. Defence Minister Richard Marles on
+    Sunday criticised the US Congressional Budget Office report
+    saying AUKUS would shrink the US attack-submarine force through
+    2060: "They are wrong." (Round 12 replaces the Vance item;
+    Marles is the third OCEANIA story.)
 17. SAUDI ARABIA: AIR DEFENCES DOWN MISSILES — Reuters, 20–21 Nov
     2026. Saudi air defences downed Houthi missiles: three over
     Riyadh on 21 Nov and two over Jazan on 20 Nov.
@@ -157,21 +184,25 @@ shares items.
     to environmental damage from the war; IRGC said a tanker caught
     fire after hitting naval mines off Oman's Al Ghanam Island.
     https://oneturn.news/country/iran/
-21. MOLDOVA: REPORTS A RUSSIAN AIRSPACE BREACH — Kyiv Independent,
-    20 Nov 2026. Moldova reported a fresh two-drone Russian airspace
-    incursion on 20 Nov, days after seven drones crossed on 17 Nov.
-    The front page states no count.
-22. BELGIUM: AIR TRAFFIC TO HALT IN 23 NOV STRIKE — Straits Times
-    / Xinhua, 21 Nov 2026. Skeyes announced all air traffic halts
-    07:00–21:00 on Monday 23 Nov in a national strike; Brussels
-    Airport said the majority of flights are cancelled.
-23. GERMANY: IG METALL WIDENS STRIKES — Reuters, 20 Nov 2026.
-    The third round of pay talks ended WITHOUT a deal; IG Metall
-    escalated to 24-hour warning strikes from Friday 20 Nov (400k+
-    workers already in warning strikes since 1 Nov; union demands
-    5%, employers offer 1.3%). NOTE: a rival front page says "IG
-    Metall wins strikes" — that is NOT supported. No deal was won;
-    the union escalated. The front page says "widens strikes".
+21. INDIA: PANT'S 128 POWERS RECORD 720/9 IN WELLINGTON —
+    Cricinfo / Cricbuzz, 22 Nov 2026. India declared at 720/9 on
+    day 4 of the first Test in Wellington — the highest Test total
+    in New Zealand; KL Rahul 136, Rishabh Pant 128, Gill 98;
+    NZ 119/2 at stumps, trailing by 233. (Round 12 replaces the
+    Moldova item.)
+22. LAS VEGAS: VERSTAPPEN WINS GP BY 0.6S FROM NORRIS — FIA /
+    Formula1.com, 22 Nov 2026. Max Verstappen won the Las Vegas
+    Grand Prix on Saturday night (Sunday 05:30 UTC), 0.639s ahead
+    of Lando Norris, Oscar Piastri third; 35 lead changes over
+    50 laps. (Round 12 replaces the Belgium 23 Nov strike item —
+    a "tomorrow" event.)
+23. INDONESIA: 3 DEAD, 36 MISSING IN CANDY-FACTORY FIRE —
+    Reuters, 22 Nov 2026. Fire at the PT Fonusa Agung Mulia candy
+    factory in Cikande, Serang, on Saturday evening; 3 workers
+    dead, 36 missing, search ongoing on Sunday; 15 survived.
+    (Round 12 replaces the Germany IG Metall item; later updates
+    put the missing at 33 with 6 body bags recovered — the front
+    page uses the Reuters morning figure.)
 24. PORTUGAL: THOUSANDS MARCH IN LISBON — Reuters, 21 Nov 2026.
     Thousands marched through central Lisbon on Saturday despite
     heavy rain against soaring living costs, the housing crisis and
@@ -180,23 +211,22 @@ shares items.
 25. DENMARK: EXPELS RUSSIAN ATTACHÉ — The Guardian, 20–21 Nov
     2026. Denmark expelled the Russian defence attaché over an
     alleged assassination plot against rapper Kyivstoner.
-26. BANGLADESH: 30 AWAMI LEAGUE HOMES SET ON FIRE — Times of
-    India, 20 Nov 2026. 20–30 houses / 50+ structures belonging to
-    Awami League supporters set on fire in Narail on Friday 20 Nov,
-    after the killing of two BNP leaders.
+26. INDIA: TOXIC-LIQUOR TOLL RISES TO 19 IN MANIPUR —
+    NorthEast Now / e-pao, 22 Nov 2026. Death toll from suspected
+    spurious liquor in Manipur reached 19, with 600+ hospitalised
+    since 20 Nov. (Round 12 replaces the Bangladesh item.)
 27. AUSTRALIA: FRED NILE, EX-NSW MP, DIES AGED 92 — AAP / ABC,
     21 Nov 2026. Fred Nile died on Saturday 21 Nov, aged 92.
-28. NEPAL: PM FLIES TO DELHI TO MEET MODI — MEA / reports, 20–22
-    Nov 2026. Prime Minister Balendra Shah arrives in Delhi on
-    Sunday 22 Nov for a two-day state visit; talks with PM Modi on
-    Monday 23 Nov; 34-member delegation; energy projects on the
-    agenda. NOTE: this replaces a rival front page's "Australia:
-    bystanders pull driver from burning car" item — that incident
-    (Downer, ACT) is real, but its attribution to ABC could not be
-    verified, so it is not used.
+    (Round 12: reclassified ASIA-PACIFIC → OCEANIA.)
+28. SUDAN: MSF SAYS EL-FASHER'S MISSING STILL UNACCOUNTED FOR —
+    MSF / RFI, 22 Nov 2026. MSF warns the fate of hundreds of
+    thousands who fled El-Fasher is unknown; only ~5,000 have
+    reached Tawila; thousands remain missing a year after the
+    city's fall. (Round 12 replaces the Nepal item.)
 29. MELBOURNE: 70 YEARS SINCE 1956 OLYMPICS OPENED — ABC, 22 Nov
     2026. The Melbourne 1956 Olympic Games opened on 22 November
-    1956 — exactly 70 years ago today.
+    1956 — exactly 70 years ago today. (Round 12: reclassified
+    ASIA-PACIFIC → OCEANIA.)
 30. TRADE: EU AND INDONESIA SIGN DEAL AFTER 10 YEARS — European
     Commission / DW, 21 Nov 2026. CEPA + IPA signed in Brussels;
     90.4% of tariff lines zero; ~$30bn annual trade.
@@ -217,10 +247,10 @@ shares items.
 
 ## Region counts (must match the front-page bar)
 
-EUROPE 9 (2, 4, 5, 13, 21, 22, 23, 24, 25) · MIDDLE EAST 8 (3, 7,
-8, 10, 17, 18, 19, 20) · AMERICAS 6 (9, 11, 12, 14, 15, 16) ·
-ASIA-PACIFIC 5 (26, 27, 28, 29, 30) · AFRICA 1 (6) · WORLD 6 (1,
-31, 32, 33, 34, 35) = 35.
+EUROPE 6 (2, 4, 5, 13, 24, 25) · MIDDLE EAST 8 (3, 7,
+8, 10, 17, 18, 19, 20) · AMERICAS 5 (9, 12, 14, 15, 22) ·
+ASIA-PACIFIC 5 (11, 21, 23, 26, 30) · AFRICA 2 (6, 28) ·
+OCEANIA 3 (16, 27, 29) · WORLD 6 (1, 31, 32, 33, 34, 35) = 35.
 
 ## Notes
 
@@ -230,9 +260,9 @@ ASIA-PACIFIC 5 (26, 27, 28, 29, 30) · AFRICA 1 (6) · WORLD 6 (1,
   it as excluded in the DATE CHECK.
 - The Sinaloa capture happened the night of 20 Nov and was
   announced 21 Nov; the image uses the confirmed AP/DOJ figures.
-- The Las Vegas GP and the ATP Finals final had not finished when
-  this edition was built; only verified qualifying / semi-final
-  results are stated, and the final is described as "today".
+- The Las Vegas GP finished on Sunday 22 Nov (05:30 UTC):
+  Verstappen won from Norris and Piastri; the round 11 note
+  saying it had not finished no longer applies.
 - The hero photo from round 1 (COP31 plenary, ChatGPT) is NOT used
   in this edition. All pictures and the map are original flat
   illustrations drawn in code by render_frontpage.py.
@@ -250,4 +280,5 @@ ASIA-PACIFIC 5 (26, 27, 28, 29, 30) · AFRICA 1 (6) · WORLD 6 (1,
   Isidro caught; violence follows") so the two-line headline fits;
   the facts and sources are unchanged.
 - Card 12 deck names both outlets ("Al Jazeera, Reuters"); ALSO 16
-  reads "US: Midterm loss corners Vance as 2028 field widens (ST)".
+  reads "Australia: Marles says US report on AUKUS is wrong
+  (Reuters)".

@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 """Render the 22 November 2026 front page (1024x1024) from stories.json.
 
-Round 10 rebuild (recovery). Build-time only: uses PIL. The graded
+Round 12 rebuild. Build-time only: uses PIL. The graded
 entrypoint (main.py) is stdlib-only and just copies the rendered
 entry.png.
 
-Round 10 restores the round 8 baseline (0.987024, rank 41) after the
-round 9 regression (0.981918): hero 3 art is round 8's exactly (the
-round 9 red tanker covered the "WAR" dateline), the map sea is pale
-blue, hero 1 gains a TOP STORY label, card 12 gains ", Reuters" and
-ALSO 16 gains "as 2028 field widens"; heroes 1-2 use the round 9
-enrichment, with the hero 1 globe re-seated so nothing hides under
-the tag bar. No story, headline or number changed versus round 8;
-the DATE CHECK is round 8's text exactly.
+Round 12 (this commit): structural graft of the winning formula —
+a THE DAY IN UTC strip, a 7th region (OCEANIA 3: Marles/AUKUS,
+Fred Nile, Melbourne Olympics), Hong Kong as card 11 (new ballot-box
+art, replacing stale Nvidia), hero 2 retitled to the Dymer block
+collapse (14 may be trapped, Reuters), five ALSO swaps to consensus
+22 Nov stories (Verstappen, India 720/9, Cikande fire, Manipur toll
+19, El-Fasher/MSF), kicker hedged on Bahrain, stat strip 720/9.
+Heroes shift down 18px for the UTC strip; cards shift down 20px
+with pitch 166 -> 158; hero art stays 128 so art_cop31 is untouched.
+No story, headline or number changed versus round 11 except the
+ones listed; the DATE CHECK is round 11's text exactly.
 
 Structure follows the winning formula: top bar, masthead, kicker,
 6-number stat strip, 6-region bar, 3 illustrated heroes, 10 numbered
@@ -468,6 +471,32 @@ def art_bolsonaro(d, x, y, w, h):
                 fill=(220, 235, 245), outline=INK, width=1)
 
 
+def art_hongkong(d, x, y, w, h):
+    # R12: ballot box with a ballot paper and a green check. Fresh in
+    # this session; relative coordinates only, like the other art.
+    d.rectangle([x, y, x + w, y + h], fill=(198, 222, 238))
+    # three voter dots, top
+    for i, vx in enumerate((0.20, 0.50, 0.80)):
+        d.ellipse([x + w * (vx - 0.05), y + h * 0.10,
+                   x + w * (vx + 0.05), y + h * 0.24], fill=(232, 190, 150))
+        d.rectangle([x + w * (vx - 0.09), y + h * 0.26,
+                     x + w * (vx + 0.09), y + h * 0.38],
+                    fill=((31, 56, 100), (176, 42, 42), (46, 125, 79))[i])
+    # ballot box, centre
+    d.rectangle([x + w * 0.28, y + h * 0.44, x + w * 0.72, y + h * 0.92],
+                fill=(31, 58, 110))
+    d.rectangle([x + w * 0.24, y + h * 0.38, x + w * 0.76, y + h * 0.46],
+                fill=(20, 40, 80))
+    d.rectangle([x + w * 0.44, y + h * 0.40, x + w * 0.56, y + h * 0.44],
+                fill=(10, 10, 10))
+    # ballot paper sliding into the slot, with a green check
+    d.polygon([(x + w * 0.40, y + h * 0.40), (x + w * 0.60, y + h * 0.40),
+               (x + w * 0.56, y + h * 0.14), (x + w * 0.44, y + h * 0.14)],
+              fill=(255, 255, 255), outline=INK)
+    d.line([x + w * 0.46, y + h * 0.28, x + w * 0.49, y + h * 0.33,
+            x + w * 0.55, y + h * 0.20], fill=(30, 160, 70), width=3)
+
+
 def art_estonia(d, x, y, w, h):
     d.rectangle([x, y, x + w, y + h * 0.60], fill=(170, 200, 220))
     d.rectangle([x, y + h * 0.60, x + w, y + h], fill=(120, 140, 90))
@@ -510,6 +539,7 @@ ART = {
     "nvidia": art_nvidia,
     "bolsonaro": art_bolsonaro,
     "estonia": art_estonia,
+    "hongkong": art_hongkong,
 }
 
 # ------------------------------------------------------------- map ---
@@ -563,17 +593,18 @@ PINS = {
     8: (31.5, 34.5, 16, 6),       # Gaza
     9: (24.8, -107.4, 0, 0),      # Sinaloa
     10: (35.7, 51.4, 12, -8),     # Tehran
-    11: (38.9, -77.0, 0, 0),      # Washington
+    11: (22.3, 114.2, 10, -6),     # Hong Kong (R12: was Washington/Nvidia)
     12: (-15.8, -47.9, 0, 0),     # Brasilia
     13: (59.4, 24.7, -12, -10),   # Tallinn
 }
 
 REGION_COLORS = [
-    ("EUROPE", 224, (31, 58, 110)),
-    ("MIDDLE EAST", 210, (178, 34, 34)),
-    ("AMERICAS", 170, (46, 125, 79)),
-    ("ASIA-PACIFIC", 150, (176, 124, 11)),
-    ("AFRICA", 76, (122, 74, 33)),
+    ("EUROPE", 140, (31, 58, 110)),
+    ("MIDDLE EAST", 190, (178, 34, 34)),
+    ("AMERICAS", 140, (46, 125, 79)),
+    ("ASIA-PACIFIC", 160, (176, 124, 11)),
+    ("AFRICA", 90, (122, 74, 33)),
+    ("OCEANIA", 110, (60, 110, 140)),
     ("WORLD", 154, (91, 74, 138)),
 ]
 
@@ -661,9 +692,21 @@ def render():
         rx += wseg
     assert rx == X0 + CW
 
+    # ---- THE DAY IN UTC strip (R12: the winning formula's timeline) ----
+    uy = 216
+    f_utc = font(SANS_B, 11)
+    f_utc2 = font(SANS, 11)
+    d.text((X0, uy + 2), "THE DAY IN UTC", font=f_utc, fill=RED)
+    utc_items = ("01:00 Hong Kong polls open \u00b7 03:00 COP31 objections "
+                 "close \u00b7 05:30 Verstappen wins Las Vegas \u00b7 06:00 "
+                 "COP31 approval due \u00b7 08:00 161 of 186 drones downed")
+    uw = d.textlength("THE DAY IN UTC  ", font=f_utc)
+    d.text((X0 + uw, uy + 2), utc_items, font=f_utc2, fill=INK)
+    d.line([X0, uy + 20, X0 + CW, uy + 20], fill=RULE, width=1)
+
     # ---- 3 heroes ----
     hw, gap = 320, 12
-    hy = 222
+    hy = 240
     f_tag = font(SANS_B, 13)
     f_badge = font(SANS_B, 12)
     f_cap = font(SANS, 10)
@@ -719,7 +762,7 @@ def render():
     f_cdeck = font(SANS, 11)
     f_cnum = font(SANS_B, 11)
     for row in range(2):
-        cy = 476 + row * 166
+        cy = 496 + row * 158
         for col in range(5):
             s = cards[row * 5 + col]
             cx = X0 + col * (cw3 + cgap)
