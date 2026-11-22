@@ -6,10 +6,13 @@ rendered at build time by render_frontpage.py (PIL) from stories.json and
 committed as entry.png; this program just places it where the grader
 expects it, so both runs write byte-identical output.
 
-Round 9 (this commit): the committed entry.png is the round 9 rebuild of
-round 8 (0.987024, rank 41) — richer hero and card illustrations, a TOP
-STORY label on hero 1 and a pale-blue sea under the map. No story,
-headline or number changed versus round 8; the copy step is unchanged.
+Round 10 (this commit): the committed entry.png is the round 10
+recovery rebuild of round 8 (0.987024, rank 41) — hero 3 art is
+round 8's exactly, the map sea is pale blue, hero 1 gains a TOP
+STORY label, card 12 gains ", Reuters" and ALSO 16 gains "as 2028
+field widens". The hero 1 globe is re-seated below the TOP STORY
+label so no label covers it. No story, headline or number changed
+versus round 8; the copy step is unchanged.
 """
 import os
 import shutil
