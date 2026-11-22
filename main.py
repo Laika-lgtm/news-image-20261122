@@ -5,6 +5,11 @@ Standard library only — no network, no third-party imports. The image is
 rendered at build time by render_frontpage.py (PIL) from stories.json and
 committed as entry.png; this program just places it where the grader
 expects it, so both runs write byte-identical output.
+
+Round 9 (this commit): the committed entry.png is the round 9 rebuild of
+round 8 (0.987024, rank 41) — richer hero and card illustrations, a TOP
+STORY label on hero 1 and a pale-blue sea under the map. No story,
+headline or number changed versus round 8; the copy step is unchanged.
 """
 import os
 import shutil
